@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <section class="search">
+        <form action="" class="search-form">
+          <div class="search-input">
+            <i class="ri-google-fill"></i>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search Google or type a URL"
+              autocomplete="off"
+            />
+            <button type="submit" class="button">
+              <i class="ri-search-eye-fill" id="button"></i>
+            </button>
+          </div>
+        </form>
+      </section>
+      <section class="bookmarks-container">
+        <ul class="bookmarks"></ul>
+      </section>
+    </main>
+    <script type="module" src="search.js"></script>
+  </body>
+</html>
