@@ -90,7 +90,7 @@ const link = [
   {
     id: 15,
     name: "codeSandbox",
-    icon: `<i class="ri-code-s-slash-line"></i>`,
+    icon: '<i class="ri-code-box-line"></i>',
     link: "https://codesandbox.io/p/sandbox/react-new?file=%2Fsrc%2FApp.js",
   },
   {
@@ -110,6 +110,12 @@ const link = [
     name: "unsplash",
     icon: `<i class="ri-image-line"></i>`,
     link: "https://unsplash.com/",
+  },
+  {
+    id: 19,
+    name: "svgRepo",
+    icon: `<i class="ri-yuque-line"></i>`,
+    link: "https://www.svgrepo.com/",
   },
 ];
 
