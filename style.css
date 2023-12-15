@@ -11,7 +11,6 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-color: #3a3a3a;
   color: #fff;
 }
 a {
@@ -58,7 +57,7 @@ img {
   display: flex;
   align-items: center;
   padding: 0 1rem;
-  width: 20rem;
+  width: 25rem;
   border-radius: 50px;
   border: 1px saddlebrown solid;
 }
@@ -81,6 +80,9 @@ img {
 }
 #search::placeholder {
   color: white;
+  opacity: 0.5;
+  text-transform: capitalize;
+  font-size: smaller;
 }
 
 .button {
@@ -113,8 +115,8 @@ img {
   padding: 1rem;
 }
 .bookmarks > li > i {
-  font-size: 1.5rem;
-  padding: 0.8rem;
+  font-size: 1rem;
+  padding: 0.5rem;
   cursor: pointer;
   border-radius: 50%;
   background-color: rgba(32, 33, 36, 1);
@@ -122,14 +124,24 @@ img {
 }
 .bookmarks > li > a {
   color: white;
-  font-size: 1rem;
+  font-size: 0.6rem;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: capitalize;
   font-family: "Orbitron", sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+  body{
+    height: auto;
+  }
+  .search-input {
+    width: 100%;
+  }
+
+  .button {
+    margin-top: 1rem;
+  }
   .bookmarks {
     grid-template-columns: repeat(2, 1fr);
   }

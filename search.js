@@ -117,6 +117,12 @@ const link = [
     icon: `<i class="ri-yuque-line"></i>`,
     link: "https://www.svgrepo.com/",
   },
+  {
+    id: 20,
+    name: "photopea",
+    icon: `<i class="ri-image-line"></i>`,
+    link: "https://www.photopea.com/",
+  },
 ];
 
 button.addEventListener("click", (e) => {
